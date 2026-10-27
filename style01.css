@@ -1,0 +1,96 @@
+
+body {
+    background-color: #e8f5e9;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    background-color: #674f46;
+    border-color: #261d1a;
+    border-width: 5px;
+    color: white;
+    padding: 30px;
+    justify-content: left;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+.intro {
+    padding: 20px;
+    margin: 20px;
+    color: white;
+}
+
+.intro p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: white;
+}
+
+.class-title {
+    color: #7e4f25;
+    margin-left: 20px;
+}
+
+.classes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.class-card {
+    background-color: white;
+    width: 220px;
+    height: 300px;
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid #7e4f25;
+    border-radius: 8px;
+}
+
+.class-card h3 {
+    color: #7e4f25;
+}
+
+.class-card p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+img {
+    width: 75px;
+    height: auto;
+    margin: 10px auto;
+}
+nav {
+    padding: 10px;
+    color: white;
+}
+.nav-links {
+    display: absolute;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+btn{
+    background-color: #7e4f25;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
